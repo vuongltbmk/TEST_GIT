@@ -21,6 +21,7 @@ namespace TEST_GIT.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            string memB = "it is M";
             int i = 0;
             int i2 = 0;
             int i3 = 0;

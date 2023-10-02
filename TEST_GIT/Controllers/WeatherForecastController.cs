@@ -8,7 +8,7 @@ namespace TEST_GIT.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Lion", "Chilly", "Cool", "Scorching", "Leo", "King", "More.."
+        "Freezing", "Bracing", "Lion", "Scorching", "Leo", "King", "More.."
     };
 
         private readonly ILogger<WeatherForecastController> _logger;

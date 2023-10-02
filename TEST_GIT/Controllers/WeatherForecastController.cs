@@ -32,6 +32,7 @@ namespace TEST_GIT.Controllers
             string sql3 = "Excec store 13";
             string sql4 = "Excec store 14";
             string sql5 = "Excec store 15";
+            string sql6 = "Excec store 16";
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

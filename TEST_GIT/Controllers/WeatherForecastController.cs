@@ -22,6 +22,7 @@ namespace TEST_GIT.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             int i = 0;
+            int i2 = 0;
             string sql = "Excec store";
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
